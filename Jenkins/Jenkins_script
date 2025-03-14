@@ -1,24 +1,24 @@
 pipeline {
     agent any
-    tools{
+    tools {
         maven 'maven'        
         jdk 'java-11'
     }
 
-    stages{
-        stage('git checkout'){
-            steps{
+    stages {
+        stage ('git checkout') {
+            steps {
                 git branch: 'main', url: 'https://github.com/Git-Prajwal-GH/Deep.git'
             }
         }
       
-        stage('compile'){
-            steps{
+        stage ('compile') {
+            steps {
                 sh 'mvn compile'
             }
         }
-        stage('Build'){
-            steps{
+        stage ('Build'){
+            steps {
                 sh 'mvn clean package'
         }
     }
