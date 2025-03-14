@@ -1,0 +1,11 @@
+pipeline{
+    agent any
+
+    stages{
+        stage('git-checkout'){
+            steps{
+                git branch: 'development', url: 'https://github.com/Git-Prajwal-GH/all-in-one-files.git'
+            }
+        }
+    }
+}
