@@ -1,0 +1,11 @@
+```
+     ====  INSTALLAION COMMAND FOR AMAZON LINUX  ====
+
+https://www.jenkins.io/doc/book/installing/linux/#debianubuntu
+
+```
+
+
+
+
+
