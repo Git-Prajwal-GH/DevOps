@@ -2,15 +2,33 @@
 
 - launch the EC2 instance 
 *AMI - ubuntu os
-<img alt="Terraform" src="https://github.com/user-attachments/assets/9e22d554-b974-47d1-b290-4c7e0501e13e">
-*instance type - t2.micro
-*set key_pair
-*choose vpc - deafault
-*choose subnet - public
-*public access - enable
-*securiy group - default with ssh connection
-*configuration storage - approx 20 GB and gp3
-*launch the instance
+<img alt="Terraform" src="https://github.com/user-attachments/assets/9e22d554-b974-47d1-b290-4c7e0501e13e" width="600px">
+
+-instance type - t2.micro
+<img alt="Terraform" src="">
+
+-set key_pair
+<img alt="Terraform" src="">
+
+-choose vpc - deafault
+<img alt="Terraform" src="">
+
+-choose subnet - public
+<img alt="Terraform" src="">
+
+-public access - enable
+<img alt="Terraform" src="">
+
+
+-securiy group - default with ssh connection
+<img alt="Terraform" src="">
+
+
+-configuration storage - approx 20 GB and gp3
+<img alt="Terraform" src="">
+
+
+-launch the instance
 
 INSTANCE CONNECT USING :
 USING SSH CLIENT INTO THE WINDOWS TERMINAL
