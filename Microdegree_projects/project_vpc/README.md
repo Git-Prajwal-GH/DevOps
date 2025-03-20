@@ -37,7 +37,7 @@ apt update && apt upgrade
 ```
 ```
 # install terraform web source
-link = "https://developer.hashicorp.com/terraform/install"
+- website link: https://developer.hashicorp.com/terraform/install
 ```
 # OR
 ```
