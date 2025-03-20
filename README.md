@@ -1,3 +1,0 @@
-```
-**THIS IS CICD PIPELINE PROJECT**
-```
