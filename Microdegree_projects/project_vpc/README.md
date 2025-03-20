@@ -108,5 +108,5 @@ terraform apply   # type yes(Enter in value)
 
 # AFTER tying yes 
 # refresh the console
-<img alt="Terraform" src="https://github.com/user-attachments/assets/e230944f-50e2-4d5a-b2e9-e5da044961bb" width="600px">
+<img alt="Terraform" src="https://github.com/user-attachments/assets/e230944f-50e2-4d5a-b2e9-e5da044961bb" width="300px">
 
