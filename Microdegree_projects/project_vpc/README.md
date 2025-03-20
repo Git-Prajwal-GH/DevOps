@@ -25,17 +25,17 @@
 - USING SSH CLIENT INTO THE WINDOWS TERMINAL
 <img alt="Terraform" src="https://github.com/user-attachments/assets/a7b35743-f7f2-46d8-8acc-22d50d6e48ed" width="600px">
 
-# switch to root
+# Switch to root
 ```
 sudo su -
 ```
-# switch to server
+# Switch to server
 ```
 hostname terraform-server
 bash
 apt update && apt upgrade
 ```
-# install terraform web source
+# Install terraform web source
 - website link: https://developer.hashicorp.com/terraform/install
 
 # OR
@@ -45,7 +45,8 @@ wget -O - https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/sh
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
 sudo apt update && sudo apt install terraform
 ```
-# check the version that will confirm terraform is available
-
+# Confirm terraform is available
+```
 terraform --version
+```
 
