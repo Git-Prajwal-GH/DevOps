@@ -73,11 +73,13 @@ resource "aws_vpc" "myvpc" {
         }
 }
 ```
-
-<img alt="Terraform" src="(https://github.com/user-attachments/assets/215b52dc-7af8-4d26-8c08-ad1b866c2b4f" width="600px">
-
 ```
 terraform init
+```
+
+<img alt="Terraform" src="https://github.com/user-attachments/assets/41e63ce3-d22b-4ea1-abf1-43eb0b2d43ef" width="600px">
+
+```
 ls -a  # to see terraform initialized
 ```
 
