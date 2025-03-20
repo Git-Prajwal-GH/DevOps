@@ -25,12 +25,38 @@
 - USING SSH CLIENT INTO THE WINDOWS TERMINAL
 <img alt="Terraform" src="https://github.com/user-attachments/assets/a7b35743-f7f2-46d8-8acc-22d50d6e48ed" width="600px">
 
+# Switch to root user
+```
+sudo su -
+```
+# Switch to server
+```
+hostname terraform-server
+bash
+apt update && apt upgrade
+```
+# Install terraform web source
+- website link: https://developer.hashicorp.com/terraform/install
 
+# OR
+```
+# use this cli cmd 
+wget -O - https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+sudo apt update && sudo apt install terraform
+```
+# Confirm terraform is available
+```
+terraform --version
+<img alt="Terraform" src="https://github.com/user-attachments/assets/05b6099e-100e-4090-8962-031c1649ecaa" width="600px">
 
-
-
-
-
+```
+# Run this cli cmd 
+```
+mkdir vpc
+cd vpc
+vi main.tf
+```
 # add the created script in vi main.tf
 ```
 provider "aws" {
