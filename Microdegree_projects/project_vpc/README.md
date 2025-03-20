@@ -55,7 +55,7 @@ mkdir vpc
 cd vpc
 vi main.tf
 ```
-# add the script init
+# add the script in main.tf
 ```
 provider "aws"{
       region="us-east-1"
@@ -70,8 +70,8 @@ resource "aws_vpc" "myvpc" {
             Name = "test-vpc"
         }
 }
-
 ```
+
 ```
 ls
 terraform init 
@@ -80,3 +80,4 @@ terraform validate
 terraform plan 
 terraform apply
 ```
+
