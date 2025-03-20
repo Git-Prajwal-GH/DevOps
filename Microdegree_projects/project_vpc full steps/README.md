@@ -167,17 +167,18 @@ terraform apply   # type yes(Enter in value)
 
 # AFTER tying yes 
 # refresh the console
-<img alt="Terraform" src="https://github.com/user-attachments/assets/aa70c55e-c5d4-4822-902a-a2fdd68f7ca8" width="300px">
 
-# OUTPUT 
+# VPC
+<img alt="Terraform" src="https://github.com/user-attachments/assets/aa70c55e-c5d4-4822-902a-a2fdd68f7ca8" width="600px">
+
 # Subnets
-<img alt="Terraform" src="https://github.com/user-attachments/assets/b7212be1-7460-4b6d-a1f7-d69e43635b9c" width="300px">
+<img alt="Terraform" src="https://github.com/user-attachments/assets/b7212be1-7460-4b6d-a1f7-d69e43635b9c" width="600px">
 
 # Internet gateway
-<img alt="Terraform" src="https://github.com/user-attachments/assets/6a9da92d-5ecd-4769-b58d-d24d7650658e" width="300px">
+<img alt="Terraform" src="https://github.com/user-attachments/assets/6a9da92d-5ecd-4769-b58d-d24d7650658e" width="600px">
 
 # Route tables
-<img alt="Terraform" src="https://github.com/user-attachments/assets/223947a1-592f-4e02-9ec1-00a29f7ed440" width="300px">
+<img alt="Terraform" src="https://github.com/user-attachments/assets/223947a1-592f-4e02-9ec1-00a29f7ed440" width="600px">
 
 # To delete the created VPC 
 ```
