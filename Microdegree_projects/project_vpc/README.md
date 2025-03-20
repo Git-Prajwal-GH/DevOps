@@ -3,19 +3,19 @@
 - launch the EC2 instance 
 *AMI - ubuntu os
 <img alt="Terraform" src="https://github.com/user-attachments/assets/9e22d554-b974-47d1-b290-4c7e0501e13e" width="600px">
-#
+
 -instance type - t2.micro
 <img alt="Terraform" src="" width="600px">
-#
+
 -set key_pair
 <img alt="Terraform" src="https://github.com/user-attachments/assets/55693e82-3265-4e6f-b1a6-2d9eb391e2c1" width="600px">
-#
+
 -choose vpc - deafault
 -choose subnet - public
 -public access - enable
 -securiy group - default with ssh connection
 <img alt="Terraform" src="https://github.com/user-attachments/assets/3e48e509-438a-4676-841a-4f51c2dcd1c6" width="600px">
-#
+
 -configuration storage - approx 20 GB and gp3
 <img alt="Terraform" src="https://github.com/user-attachments/assets/ffacef07-b17b-4ca7-bc41-d82f94bf5ff5" width="600px">
 
