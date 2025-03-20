@@ -78,11 +78,15 @@ resource "aws_vpc" "myvpc" {
 ls
 terraform init
 ```
-<img alt="Terraform" src="(https://github.com/user-attachments/assets/215b52dc-7af8-4d26-8c08-ad1b866c2b4f" width="600px">
+
+ex: <img alt="Terraform" src="(https://github.com/user-attachments/assets/215b52dc-7af8-4d26-8c08-ad1b866c2b4f" width="600px">
+
 ```
 ls -a  # to see terraform initialized
 ```
+
 <img alt="Terraform" src="https://github.com/user-attachments/assets/983635f7-be96-4a86-8308-ebc2bff477fc" width="600px">
+
 ```
 terraform validate 
 ```
