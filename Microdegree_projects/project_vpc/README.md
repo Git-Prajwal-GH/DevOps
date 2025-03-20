@@ -98,8 +98,15 @@ terraform plan
 <img alt="Terraform" src="https://github.com/user-attachments/assets/5cfbade7-2f6e-49ee-92f6-0e3ad846f971" width="600px">
 
 ```
-terraform apply
+terraform apply   # type yes(Enter in value)
 ```
 
 <img alt="Terraform" src="https://github.com/user-attachments/assets/bd68ce05-5fe1-49e6-8ceb-81d942147dd0" width="600px">
+
+# BEFORE tying yes
+<img alt="Terraform" src="https://github.com/user-attachments/assets/901febe9-38b9-41fe-9089-160ef4b8a430" width="600px">
+
+# AFTER tying yes 
+# refresh the console
+<img alt="Terraform" src="https://github.com/user-attachments/assets/e230944f-50e2-4d5a-b2e9-e5da044961bb" width="600px">
 
