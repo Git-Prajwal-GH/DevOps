@@ -48,6 +48,8 @@ sudo apt update && sudo apt install terraform
 # Confirm terraform is available
 ```
 terraform --version
+<img alt="Terraform" src="https://github.com/user-attachments/assets/05b6099e-100e-4090-8962-031c1649ecaa" width="600px">
+
 ```
 # Run this cli cmd 
 ```
@@ -74,10 +76,19 @@ resource "aws_vpc" "myvpc" {
 
 ```
 ls
-terraform init 
+terraform init
+<img alt="Terraform" src="(https://github.com/user-attachments/assets/215b52dc-7af8-4d26-8c08-ad1b866c2b4f" width="600px">
+
 ls -a  # to see terraform initialized
+<img alt="Terraform" src="https://github.com/user-attachments/assets/983635f7-be96-4a86-8308-ebc2bff477fc" width="600px">
+
 terraform validate 
+<img alt="Terraform" src="https://github.com/user-attachments/assets/41dc48f0-63ae-45eb-8489-13b3da04a6ad" width="600px">
+
 terraform plan 
+<img alt="Terraform" src="https://github.com/user-attachments/assets/5cfbade7-2f6e-49ee-92f6-0e3ad846f971" width="600px">
+
 terraform apply
+<img alt="Terraform" src="https://github.com/user-attachments/assets/bd68ce05-5fe1-49e6-8ceb-81d942147dd0" width="600px">
 ```
 
