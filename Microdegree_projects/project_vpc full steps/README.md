@@ -183,3 +183,177 @@ terraform apply   # type yes(Enter in value)
 ```
 terraform destroy
 ```
+# after cli terraform destroy u will see following details
+/root@Terraform-server:~# terraform destroy
+aws_vpc.myvpc: Refreshing state... [id=vpc-0a54d64027c17944e]
+aws_internet_gateway.myigw: Refreshing state... [id=igw-05c9c87f8c15668b3]
+aws_subnet.subnet_1: Refreshing state... [id=subnet-0dec6497e467d3632]
+aws_route_table.public_route_table: Refreshing state... [id=rtb-08983edc7722d1e29]
+aws_subnet.subnet_2: Refreshing state... [id=subnet-09a747d3788a28f5b]
+aws_route.public_route: Refreshing state... [id=r-rtb-08983edc7722d1e291080289494]
+aws_route_table_association.public_subnet_associate: Refreshing state... [id=rtbassoc-07ef918e38fdcd291]
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
+  - destroy
+
+Terraform will perform the following actions:
+
+  # aws_internet_gateway.myigw will be destroyed
+  - resource "aws_internet_gateway" "myigw" {
+      - arn      = "arn:aws:ec2:us-east-1:762233730669:internet-gateway/igw-05c9c87f8c15668b3" -> null
+      - id       = "igw-05c9c87f8c15668b3" -> null
+      - owner_id = "762233730669" -> null
+      - tags     = {
+          - "Name" = "MyIGW"
+        } -> null
+      - tags_all = {
+          - "Name" = "MyIGW"
+        } -> null
+      - vpc_id   = "vpc-0a54d64027c17944e" -> null
+    }
+
+  # aws_route.public_route will be destroyed
+  - resource "aws_route" "public_route" {
+      - destination_cidr_block      = "0.0.0.0/0" -> null
+      - gateway_id                  = "igw-05c9c87f8c15668b3" -> null
+      - id                          = "r-rtb-08983edc7722d1e291080289494" -> null
+      - origin                      = "CreateRoute" -> null
+      - route_table_id              = "rtb-08983edc7722d1e29" -> null
+      - state                       = "active" -> null
+        # (13 unchanged attributes hidden)
+    }
+
+  # aws_route_table.public_route_table will be destroyed
+  - resource "aws_route_table" "public_route_table" {
+      - arn              = "arn:aws:ec2:us-east-1:762233730669:route-table/rtb-08983edc7722d1e29" -> null
+      - id               = "rtb-08983edc7722d1e29" -> null
+      - owner_id         = "762233730669" -> null
+      - propagating_vgws = [] -> null
+      - route            = [
+          - {
+              - cidr_block                 = "0.0.0.0/0"
+              - gateway_id                 = "igw-05c9c87f8c15668b3"
+                # (11 unchanged attributes hidden)
+            },
+        ] -> null
+      - tags             = {
+          - "Name" = "Public Route Table"
+        } -> null
+      - tags_all         = {
+          - "Name" = "Public Route Table"
+        } -> null
+      - vpc_id           = "vpc-0a54d64027c17944e" -> null
+    }
+
+  # aws_route_table_association.public_subnet_associate will be destroyed
+  - resource "aws_route_table_association" "public_subnet_associate" {
+      - id             = "rtbassoc-07ef918e38fdcd291" -> null
+      - route_table_id = "rtb-08983edc7722d1e29" -> null
+      - subnet_id      = "subnet-0dec6497e467d3632" -> null
+        # (1 unchanged attribute hidden)
+    }
+
+  # aws_subnet.subnet_1 will be destroyed
+  - resource "aws_subnet" "subnet_1" {
+      - arn                                            = "arn:aws:ec2:us-east-1:762233730669:subnet/subnet-0dec6497e467d3632" -> null
+      - assign_ipv6_address_on_creation                = false -> null
+      - availability_zone                              = "us-east-1a" -> null
+      - availability_zone_id                           = "use1-az2" -> null
+      - cidr_block                                     = "10.0.0.0/24" -> null
+      - enable_dns64                                   = false -> null
+      - enable_lni_at_device_index                     = 0 -> null
+      - enable_resource_name_dns_a_record_on_launch    = false -> null
+      - enable_resource_name_dns_aaaa_record_on_launch = false -> null
+      - id                                             = "subnet-0dec6497e467d3632" -> null
+      - ipv6_native                                    = false -> null
+      - map_customer_owned_ip_on_launch                = false -> null
+      - map_public_ip_on_launch                        = true -> null
+      - owner_id                                       = "762233730669" -> null
+      - private_dns_hostname_type_on_launch            = "ip-name" -> null
+      - tags                                           = {
+          - "Name" = "Public Subnet"
+        } -> null
+      - tags_all                                       = {
+          - "Name" = "Public Subnet"
+        } -> null
+      - vpc_id                                         = "vpc-0a54d64027c17944e" -> null
+        # (4 unchanged attributes hidden)
+    }
+
+  # aws_subnet.subnet_2 will be destroyed
+  - resource "aws_subnet" "subnet_2" {
+      - arn                                            = "arn:aws:ec2:us-east-1:762233730669:subnet/subnet-09a747d3788a28f5b" -> null
+      - assign_ipv6_address_on_creation                = false -> null
+      - availability_zone                              = "us-east-1b" -> null
+      - availability_zone_id                           = "use1-az4" -> null
+      - cidr_block                                     = "10.0.1.0/24" -> null
+      - enable_dns64                                   = false -> null
+      - enable_lni_at_device_index                     = 0 -> null
+      - enable_resource_name_dns_a_record_on_launch    = false -> null
+      - enable_resource_name_dns_aaaa_record_on_launch = false -> null
+      - id                                             = "subnet-09a747d3788a28f5b" -> null
+      - ipv6_native                                    = false -> null
+      - map_customer_owned_ip_on_launch                = false -> null
+      - map_public_ip_on_launch                        = false -> null
+      - owner_id                                       = "762233730669" -> null
+      - private_dns_hostname_type_on_launch            = "ip-name" -> null
+      - tags                                           = {
+          - "Name" = "Private Subnet"
+        } -> null
+      - tags_all                                       = {
+          - "Name" = "Private Subnet"
+        } -> null
+      - vpc_id                                         = "vpc-0a54d64027c17944e" -> null
+        # (4 unchanged attributes hidden)
+    }
+
+  # aws_vpc.myvpc will be destroyed
+  - resource "aws_vpc" "myvpc" {
+      - arn                                  = "arn:aws:ec2:us-east-1:762233730669:vpc/vpc-0a54d64027c17944e" -> null
+      - assign_generated_ipv6_cidr_block     = false -> null
+      - cidr_block                           = "10.0.0.0/16" -> null
+      - default_network_acl_id               = "acl-03436b09adacda105" -> null
+      - default_route_table_id               = "rtb-0c84cb0956c8aeca7" -> null
+      - default_security_group_id            = "sg-0d45765cb7c8fa610" -> null
+      - dhcp_options_id                      = "dopt-0fbf552b368360883" -> null
+      - enable_dns_hostnames                 = true -> null
+      - enable_dns_support                   = true -> null
+      - enable_network_address_usage_metrics = false -> null
+      - id                                   = "vpc-0a54d64027c17944e" -> null
+      - instance_tenancy                     = "default" -> null
+      - ipv6_netmask_length                  = 0 -> null
+      - main_route_table_id                  = "rtb-0c84cb0956c8aeca7" -> null
+      - owner_id                             = "762233730669" -> null
+      - tags                                 = {
+          - "Name" = "MyVPC"
+        } -> null
+      - tags_all                             = {
+          - "Name" = "MyVPC"
+        } -> null
+        # (4 unchanged attributes hidden)
+    }
+
+Plan: 0 to add, 0 to change, 7 to destroy.
+
+Do you really want to destroy all resources?
+  Terraform will destroy all your managed infrastructure, as shown above.
+  There is no undo. Only 'yes' will be accepted to confirm.
+
+  Enter a value: yes
+
+aws_route_table_association.public_subnet_associate: Destroying... [id=rtbassoc-07ef918e38fdcd291]
+aws_subnet.subnet_2: Destroying... [id=subnet-09a747d3788a28f5b]
+aws_route.public_route: Destroying... [id=r-rtb-08983edc7722d1e291080289494]
+aws_route_table_association.public_subnet_associate: Destruction complete after 0s
+aws_subnet.subnet_1: Destroying... [id=subnet-0dec6497e467d3632]
+aws_route.public_route: Destruction complete after 0s
+aws_internet_gateway.myigw: Destroying... [id=igw-05c9c87f8c15668b3]
+aws_route_table.public_route_table: Destroying... [id=rtb-08983edc7722d1e29]
+aws_subnet.subnet_2: Destruction complete after 0s
+aws_internet_gateway.myigw: Destruction complete after 0s
+aws_subnet.subnet_1: Destruction complete after 0s
+aws_route_table.public_route_table: Destruction complete after 0s
+aws_vpc.myvpc: Destroying... [id=vpc-0a54d64027c17944e]
+aws_vpc.myvpc: Destruction complete after 1s
+
+Destroy complete! Resources: 7 destroyed./
