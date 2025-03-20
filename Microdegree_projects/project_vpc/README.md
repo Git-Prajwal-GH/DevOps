@@ -25,17 +25,16 @@
 - USING SSH CLIENT INTO THE WINDOWS TERMINAL
 <img alt="Terraform" src="https://github.com/user-attachments/assets/a7b35743-f7f2-46d8-8acc-22d50d6e48ed" width="600px">
 
-``
 # switch to root
+```
 sudo su -
-
+```
 # switch to server
+```
 hostname terraform-server
-
 bash
-
 apt update && apt upgrade
-
+```
 # install terraform web source
 - website link: https://developer.hashicorp.com/terraform/install
 
