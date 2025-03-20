@@ -25,11 +25,11 @@
 - USING SSH CLIENT INTO THE WINDOWS TERMINAL
 <img alt="Terraform" src="https://github.com/user-attachments/assets/a7b35743-f7f2-46d8-8acc-22d50d6e48ed" width="600px">
 
-# Switch to root user
+- # Switch to root user
 ```
 sudo su -
 ```
-# Switch to server
+- # Switch to server
 ```
 hostname terraform-server
 bash
@@ -46,21 +46,21 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashi
 sudo apt update && sudo apt install terraform
 ```
 
-# Confirm terraform is available
+- # Confirm terraform is available
 ```
 terraform --version
 ```
 
 <img alt="Terraform" src="https://github.com/user-attachments/assets/05b6099e-100e-4090-8962-031c1649ecaa" width="600px">
 
-# Run this cli cmd 
+- # Run this cli cmd 
 ```
 mkdir vpc
 cd vpc
 vi main.tf
 ```
 
-# add the created script in vi main.tf
+- # add the created script in vi main.tf
 
 ```
 provider "aws" {
