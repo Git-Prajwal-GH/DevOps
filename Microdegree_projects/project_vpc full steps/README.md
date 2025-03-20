@@ -158,26 +158,28 @@ terraform validate
 terraform plan 
 ```
 
-<img alt="Terraform" src="https://github.com/user-attachments/assets/5cfbade7-2f6e-49ee-92f6-0e3ad846f971" width="600px">
-
 ```
 terraform apply   # type yes(Enter in value)
 ```
-
-<img alt="Terraform" src="https://github.com/user-attachments/assets/bd68ce05-5fe1-49e6-8ceb-81d942147dd0" width="600px">
 
 # BEFORE tying yes
 <img alt="Terraform" src="https://github.com/user-attachments/assets/901febe9-38b9-41fe-9089-160ef4b8a430" width="600px">
 
 # AFTER tying yes 
 # refresh the console
-<img alt="Terraform" src="https://github.com/user-attachments/assets/e230944f-50e2-4d5a-b2e9-e5da044961bb" width="300px">
+<img alt="Terraform" src="https://github.com/user-attachments/assets/aa70c55e-c5d4-4822-902a-a2fdd68f7ca8" width="300px">
 
 # OUTPUT 
+# Subnets
+<img alt="Terraform" src="https://github.com/user-attachments/assets/b7212be1-7460-4b6d-a1f7-d69e43635b9c" width="300px">
 
+# Internet gateway
+<img alt="Terraform" src="https://github.com/user-attachments/assets/6a9da92d-5ecd-4769-b58d-d24d7650658e" width="300px">
+
+# Route tables
+<img alt="Terraform" src="https://github.com/user-attachments/assets/223947a1-592f-4e02-9ec1-00a29f7ed440" width="300px">
 
 # To delete the created VPC 
 ```
 terraform destroy
 ```
-<img alt="Terraform" src="https://github.com/user-attachments/assets/9a6c71f1-6f18-4ac0-b646-e87733aad087" width="300px">
