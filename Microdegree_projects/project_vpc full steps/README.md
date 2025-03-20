@@ -50,14 +50,18 @@ sudo apt update && sudo apt install terraform
 ```
 terraform --version
 ```
+
 <img alt="Terraform" src="https://github.com/user-attachments/assets/05b6099e-100e-4090-8962-031c1649ecaa" width="600px">
+
 # Run this cli cmd 
 ```
 mkdir vpc
 cd vpc
 vi main.tf
 ```
+
 # add the created script in vi main.tf
+
 ```
 provider "aws" {
   region     = "us-east-1"
