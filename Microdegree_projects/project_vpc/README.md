@@ -1,7 +1,7 @@
 # VPC CREATING STEPS IN TERRAFORM FORMAT
 
 - Launch the EC2 instance 
-*AMI - ubuntu os
+*AMI - Ubuntu Server 24.04 LTS (HVM)
 <img alt="Terraform" src="https://github.com/user-attachments/assets/9e22d554-b974-47d1-b290-4c7e0501e13e" width="600px">
 
 - Instance type - t2.micro
@@ -110,3 +110,7 @@ terraform apply   # type yes(Enter in value)
 # refresh the console
 <img alt="Terraform" src="https://github.com/user-attachments/assets/e230944f-50e2-4d5a-b2e9-e5da044961bb" width="300px">
 
+# To delete the created VPC 
+```
+terraform destroy
+```
