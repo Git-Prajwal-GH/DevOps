@@ -73,9 +73,7 @@ resource "aws_vpc" "myvpc" {
         }
 }
 ```
-
 ```
-ls
 terraform init
 ```
 
