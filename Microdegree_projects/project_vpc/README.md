@@ -10,10 +10,10 @@
 - set key_pair
 <img alt="Terraform" src="https://github.com/user-attachments/assets/55693e82-3265-4e6f-b1a6-2d9eb391e2c1" width="600px">
 
-- choose vpc - deafault
-- choose subnet - public
+- choose vpc - DEFAULT
+- choose subnet - DEFAULT 
 - public access - enable
-- securiy group - default with ssh connection
+- securiy group - use existing securit group as DEFAULT
 <img alt="Terraform" src="https://github.com/user-attachments/assets/3e48e509-438a-4676-841a-4f51c2dcd1c6" width="600px">
 
 - configuration storage - approx 20 GB and gp3
