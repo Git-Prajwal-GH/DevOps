@@ -135,3 +135,49 @@ resource "aws_route_table_association" "public_subnet_associate" {
   route_table_id = aws_route_table.public_route_table.id
 }
 ```
+
+```
+terraform init
+```
+
+<img alt="Terraform" src="https://github.com/user-attachments/assets/41e63ce3-d22b-4ea1-abf1-43eb0b2d43ef" width="600px">
+
+```
+ls -a  # to see terraform initialized
+```
+
+<img alt="Terraform" src="https://github.com/user-attachments/assets/983635f7-be96-4a86-8308-ebc2bff477fc" width="600px">
+
+```
+terraform validate 
+```
+
+<img alt="Terraform" src="https://github.com/user-attachments/assets/41dc48f0-63ae-45eb-8489-13b3da04a6ad" width="600px">
+
+```
+terraform plan 
+```
+
+<img alt="Terraform" src="https://github.com/user-attachments/assets/5cfbade7-2f6e-49ee-92f6-0e3ad846f971" width="600px">
+
+```
+terraform apply   # type yes(Enter in value)
+```
+
+<img alt="Terraform" src="https://github.com/user-attachments/assets/bd68ce05-5fe1-49e6-8ceb-81d942147dd0" width="600px">
+
+# BEFORE tying yes
+<img alt="Terraform" src="https://github.com/user-attachments/assets/901febe9-38b9-41fe-9089-160ef4b8a430" width="600px">
+
+# AFTER tying yes 
+# refresh the console
+<img alt="Terraform" src="https://github.com/user-attachments/assets/e230944f-50e2-4d5a-b2e9-e5da044961bb" width="300px">
+
+# OUTPUT 
+
+
+# To delete the created VPC 
+```
+terraform destroy
+```
+<img alt="Terraform" src="https://github.com/user-attachments/assets/9a6c71f1-6f18-4ac0-b646-e87733aad087" width="300px">
