@@ -165,8 +165,7 @@ terraform apply   # type yes(Enter in value)
 - # BEFORE typing yes
 <img alt="Terraform" src="https://github.com/user-attachments/assets/901febe9-38b9-41fe-9089-160ef4b8a430" width="600px">
 
-- # AFTER typing yes 
-- # refresh the console
+- # AFTER typing yes refresh the console
 - # OUTPUT
 # VPC
 <img alt="Terraform" src="https://github.com/user-attachments/assets/aa70c55e-c5d4-4822-902a-a2fdd68f7ca8" width="600px">
@@ -180,7 +179,7 @@ terraform apply   # type yes(Enter in value)
 # Route tables
 <img alt="Terraform" src="https://github.com/user-attachments/assets/223947a1-592f-4e02-9ec1-00a29f7ed440" width="600px">
 
-- # To delete the created VPC 
+# To delete the created VPC 
 ```
 terraform destroy
 ```
