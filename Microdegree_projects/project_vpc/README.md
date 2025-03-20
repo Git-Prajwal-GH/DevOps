@@ -50,3 +50,16 @@ sudo apt update && sudo apt install terraform
 terraform --version
 ```
 
+```
+mkdir vpc
+cd vpc
+vi main.tf
+add the script init
+ls
+```
+terraform init 
+ls -a (to see terraform initialized)
+terraform validate 
+terraform plan 
+terraform apply
+```
