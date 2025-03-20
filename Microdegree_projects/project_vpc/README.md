@@ -5,7 +5,7 @@
 <img alt="Terraform" src="https://github.com/user-attachments/assets/9e22d554-b974-47d1-b290-4c7e0501e13e" width="600px">
 
 -instance type - t2.micro
-<img alt="Terraform" src="" width="600px">
+<img alt= src="https://github.com/user-attachments/assets/11a7b839-7893-434f-8383-9674cb0ab2c6" width="600px">
 
 -set key_pair
 <img alt="Terraform" src="https://github.com/user-attachments/assets/55693e82-3265-4e6f-b1a6-2d9eb391e2c1" width="600px">
