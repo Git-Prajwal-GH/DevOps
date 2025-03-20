@@ -114,3 +114,4 @@ terraform apply   # type yes(Enter in value)
 ```
 terraform destroy
 ```
+<img alt="Terraform" src="https://github.com/user-attachments/assets/9a6c71f1-6f18-4ac0-b646-e87733aad087" width="300px">
