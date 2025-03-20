@@ -28,13 +28,13 @@
 ``
 # switch to root
 sudo su -
-``
-``
+
 # switch to server
 hostname terraform-server
+
 bash
+
 apt update && apt upgrade
-``
 
 # install terraform web source
 - website link: https://developer.hashicorp.com/terraform/install
