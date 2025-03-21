@@ -14,7 +14,7 @@ resource "aws_instance" "admin" {
      root_block_device {
         volume_size = 25
         volume_type = "gp3"
-        deldelete_on_termination = true
+        delete_on_termination = true
 
      }
 
