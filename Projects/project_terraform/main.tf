@@ -25,5 +25,5 @@ resource "aws_instance" "admin" {
 
 
 output "publicIP" {
-            value = aws_instance.admin.private_ip
+            value = aws_instance.admin.public_ip
 }
