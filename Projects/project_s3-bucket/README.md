@@ -112,9 +112,8 @@ terraform apply   # type yes(Enter in value)
 <img alt="Terraform" src="https://github.com/user-attachments/assets/6afb3c3c-513b-4ae4-906b-946cb534ba9f" width="600px">
 <img alt="Terraform" src="https://github.com/user-attachments/assets/b03b66a5-0449-4475-815f-9a561776806f" width="600px">
 
-```
+- # BEFORE typing yes
 
-- ## BEFORE typing yes
 <img alt="Terraform" src="https://github.com/user-attachments/assets/a59b82ff-a4c4-48e0-9e5d-42c659e3dac0" width="600px">
 
 - ## AFTER typing yes refresh the console
