@@ -1,6 +1,9 @@
-# **S3 BUCKET CREATING USING TERRAFORM SCRIPT**
+# S3 BUCKET CREATING USING TERRAFORM SCRIPT
+
+## NOTE: TO DEPLOY THE TERRAFORM SRIPT WE NEED EC2 INSTANCE  
 
 ## Launch the EC2 instance 
+
 - AMI - Ubuntu Server 24.04 LTS (HVM)
 <img alt="Terraform" src="https://github.com/user-attachments/assets/9e22d554-b974-47d1-b290-4c7e0501e13e" width="600px">
 
