@@ -74,12 +74,9 @@ provider "aws"{
       secret_key="******"
 }
 
-resource "aws_vpc" "myvpc" {
-    cidr_block = "10.0.0.0/16"
+resource "aws_s3_bucket" "mybucket" {
+      bucket = "microdegree-degree-march"
 
-        tags = {
-            Name = "test-vpc"
-        }
 }
 ```
 
