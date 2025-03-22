@@ -87,7 +87,7 @@ resource "aws_vpc" "myvpc" {
 terraform init
 ```
 
-<img alt="Terraform" src="https://github.com/user-attachments/assets/41e63ce3-d22b-4ea1-abf1-43eb0b2d43ef" width="600px">
+<img alt="Terraform" src="https://github.com/user-attachments/assets/7627eaa5-7eb8-4a76-98e3-8a972672a4f7" width="600px">
 
 ```
 ls -a  # to see terraform initialized
@@ -105,12 +105,38 @@ terraform validate
 terraform plan 
 ```
 
+<img alt="Terraform" src="https://github.com/user-attachments/assets/eeab7f01-db56-4d56-9ed4-2e3590506894" width="600px">
+
+
 ```
 terraform apply   # type yes(Enter in value)
 ```
 
+<img alt="Terraform" src="https://github.com/user-attachments/assets/6afb3c3c-513b-4ae4-906b-946cb534ba9f" width="600px">
+<img alt="Terraform" src="https://github.com/user-attachments/assets/b03b66a5-0449-4475-815f-9a561776806f" width="600px">
+
+```
+
 - ## BEFORE typing yes
-<img alt="Terraform" src="https://github.com/user-attachments/assets/901febe9-38b9-41fe-9089-160ef4b8a430" width="600px">
+<img alt="Terraform" src="https://github.com/user-attachments/assets/a59b82ff-a4c4-48e0-9e5d-42c659e3dac0" width="600px">
 
 - ## AFTER typing yes refresh the console
 - ## OUTPUT
+
+<img alt="Terraform" src="https://github.com/user-attachments/assets/c877ee84-6233-4fc0-805d-048afcefd222" width="600px">
+
+# To delete the created VPC 
+```
+terraform destroy
+```
+
+<img alt="Terraform" src="https://github.com/user-attachments/assets/204d4136-59a9-4198-b64b-25335074f2f5" width="600px">
+
+
+# after cli terraform destroy u will see following details after typing "YES"
+
+<img alt="Terraform" src="![Screenshot 2025-03-20 171516](https://github.com/user-attachments/assets/cbfa6e05-0fae-4972-81a4-4fc9af3b2b61)" width="600px">
+
+# Created s3_bucket deleted
+<img alt="Terraform" src=""![Screenshot 2025-03-20 171534](https://github.com/user-attachments/assets/3a39cb00-8516-4939-adf6-0c0d23ec364b)
+ width="600px">
