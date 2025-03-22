@@ -131,7 +131,7 @@ terraform destroy
 
 # after cli terraform destroy u will see following details after typing "YES"
 
-<img alt="Terraform" src="![Screenshot 2025-03-20 171516](https://github.com/user-attachments/assets/cbfa6e05-0fae-4972-81a4-4fc9af3b2b61)" width="600px">
+<img alt="Terraform" src="https://github.com/user-attachments/assets/cbfa6e05-0fae-4972-81a4-4fc9af3b2b61" width="600px">
 
 # Created s3_bucket deleted
 
