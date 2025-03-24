@@ -66,7 +66,7 @@ vi main.tf
 - ## add the created script in vi main.tf
 
 ```
-S3 BUCKET SCRIPT
+# S3 BUCKET SCRIPT
 
 provider "aws"{
       region="us-east-1"
