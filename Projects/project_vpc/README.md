@@ -46,11 +46,13 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashi
 sudo apt update && sudo apt install terraform
 ```
 # Confirm terraform is available
-```
-terraform --version
-<img alt="Terraform" src="https://github.com/user-attachments/assets/05b6099e-100e-4090-8962-031c1649ecaa" width="600px">
 
 ```
+terraform --version
+```
+
+<img alt="Terraform" src="https://github.com/user-attachments/assets/05b6099e-100e-4090-8962-031c1649ecaa" width="600px">
+
 # Run this cli cmd 
 ```
 mkdir vpc
