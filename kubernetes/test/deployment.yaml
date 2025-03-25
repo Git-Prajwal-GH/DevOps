@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: boardshackk-deployment
+  namespace: board
+  labels:
+    app: boardshackk
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: boardshackk
+  template:
+    metadata:
+      labels:
+        app: boardshackk
+    spec:
+      containers:
+      - name: boardshackk
+        image: manojkrishnappa/boardshackk:latest
+        ports:
+        - containerPort: 8080
+        # Add other configurations as needed, e.g., environment variables, volume mounts
+
