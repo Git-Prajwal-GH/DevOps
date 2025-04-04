@@ -1,1 +1,1 @@
-link "https://pkg.jenkins.io/debian/"
+https://pkg.jenkins.io/debian/
