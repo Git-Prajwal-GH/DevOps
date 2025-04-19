@@ -1,14 +1,14 @@
 provider "aws" {
     region = "us-east-1"              # add region
-    access_key = "xxx"                # add IAM console>users>security-credentials
-    secret_key = "xxx"                # add IAM console>users>security-credentials
+    access_key = ""                # add IAM console>users>security-credentials
+    secret_key = ""                # add IAM console>users>security-credentials
 }
 
 resource "aws_instance" "admin" {
         ami = "ami-084568db4383264d4"            # copy from AMI catalog which is displayed
         instance_type = "t2.medium"              # choose "t2.medium" instance
         security_groups = [ "default" ]          # set security group as default
-        key_name = "terraform"                   # Give keypair
+        key_name = "k8s"                   # Give keypair
         root_block_device {
         volume_size = 20                         # edit required storage capacity
         volume_type = "gp3"
