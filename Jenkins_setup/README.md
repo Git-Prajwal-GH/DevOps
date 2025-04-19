@@ -24,8 +24,7 @@ sudo apt-get status jenkins
 ```
 
 ## Check instead to get Jenkins passcode with host port
-<img src= "https://github.com/user-attachments/assets/56ac27dd-521c-47f6-933e-bb4387690215
-" width="400px">
+<img alt="image" src="https://github.com/user-attachments/assets/56ac27dd-521c-47f6-933e-bb4387690215" width="400px">
 
 # OR
 
