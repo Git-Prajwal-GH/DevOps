@@ -1,6 +1,9 @@
 ## Pre-requisites AWS setup
-- Ec2 instances t2.medium
-- Network SSH, TCP 
+- AMI: Amazonlinux
+- Type: t2.medium
+- Ports to open in security group:
+  - TCP 22 (SSH) 
+- Key Pair: Save your .pem file
 ## link for Jenkins setup
 https://pkg.jenkins.io/debian/
 
