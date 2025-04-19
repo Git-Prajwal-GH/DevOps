@@ -1,4 +1,3 @@
-```
 # Define the content
 title = "Kubernetes Setup on AWS EC2 (t2.micro) with kubeadm"
 content = 
@@ -52,4 +51,4 @@ kubectl get pods --all-namespaces
 kubectl create deployment nginx --image=nginx
 kubectl expose deployment nginx --port=80 --type=NodePort
 kubectl get svc
-```
+
