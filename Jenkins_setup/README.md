@@ -33,16 +33,16 @@ sudo apt-get status jenkins
 2. In url path type > hostip:8080 ( ex:125.65.85.04:8080 )
 
 ## Copy the passcode in empty given path
-<img src= "Screenshot 2025-03-19 093539.png" width="400px">
+<img alt="image" src="https://github.com/user-attachments/assets/86b48d97-e926-42b1-84c2-8dce6e4069ee" width="400px">
 
 ## Select Install suggested plugins
-<img src= "dikjkio.jpg" width="400px">
+<img alt="image" src="https://github.com/user-attachments/assets/5dcef65c-849a-4cb6-bc78-ba51d4b67186" width="400px">
 
 ## Wait to load all default plugins
-<img src= "Screenshot 2025-03-15 164336.png" width="400px">
+<img alt="image" src="https://github.com/user-attachments/assets/636d57b4-232b-4149-8395-e07c39e2e221" width="400px">
 
 ## Setup a first demo login password
-<img src= "Screenshot 2025-03-15 164512.png" width="400px">
+<img alt="image" src="https://github.com/user-attachments/assets/c7c710b5-1393-493f-b42b-92f5632757a6" width="400px">
 
 ## Successfully logined to jenkins
-![alt text](<Screenshot 2025-03-19 093413.png>)
+<img alt="image" src="https://github.com/user-attachments/assets/7389a3cd-c2e3-49f2-8166-086bd6766756" width="400px">
