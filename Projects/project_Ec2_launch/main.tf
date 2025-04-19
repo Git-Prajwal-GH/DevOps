@@ -1,3 +1,4 @@
+# LAUNCHING EC2 INSTANCE USING TERRAFORUM SCRIPT
 provider "aws" {
     region = "us-east-1"
     access_key = "*****"
