@@ -64,7 +64,7 @@ vi /etc/ansible/hosts
 ansible all -m ping -u root # all means worker1 & 2 nodes
 ```
 - OUTPUT
-<img alt="Image" src="https://github.com/user-attachments/assets/942375e9-339b-4608-a89d-75b165a11f31" width="600px"> 
+<img alt="Image" src="https://github.com/user-attachments/assets/942375e9-339b-4608-a89d-75b165a11f31" width="1000px"> 
 
 ### OR
 ```
