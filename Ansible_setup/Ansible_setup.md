@@ -70,4 +70,3 @@ ansible all -m ping -u root # all means worker1 & 2 nodes
 ```
 ansible server1 -m ping -u root # confirm connection between master and worker1 nodes
 ```
-ityititidtiit
