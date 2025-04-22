@@ -33,6 +33,15 @@ Playbook Modules:
 
        - name: Copy file to directory
          copy:
-           src: filetest-005
+           src: filetest-005     # copying the file from Master_node to slave_node
            dest: /root/ansible-test5
   ```
+## Deploy the cli in Master node
+```
+ansible-playbook playbook.yaml
+```
+<img alt="Image" src="https://github.com/user-attachments/assets/fcec9bec-5b44-4e0d-836b-5bd4c7bf4316" width="1000px">
+
+## Slave node - output
+<img alt="Image" src="https://github.com/user-attachments/assets/d626af2d-cd21-42bc-9e03-8d7354c6ce31" width="600px">
+
