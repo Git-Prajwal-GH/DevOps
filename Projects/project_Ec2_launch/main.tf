@@ -11,19 +11,16 @@ resource "aws_instance" "admin" {
         security_groups = [ "default" ]
         key_name = "terraform"
 
-
      root_block_device {
         volume_size = 25
         volume_type = "gp3"
         delete_on_termination = true
-
      }
 
      tags = {
         Name ="Admin-server"
      }   
 }
-
 
 output "publicIP" {
             value = aws_instance.admin.public_ip
