@@ -12,7 +12,7 @@
       git:
         repo: 'https://github.com/Git-Prajwal-GH/website.git'
         dest: /var/www/html/website-files
-        version: main  # or use 'master' if that's your branch
+        version: main  
         force: yes
 
     - name: Ensure nginx is running
