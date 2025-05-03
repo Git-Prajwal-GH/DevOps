@@ -1,0 +1,22 @@
+---
+- name: Deploy website to staging and production
+  hosts: web-servers
+  become: yes
+  tasks:
+    - name: Ensure Git is installed
+      yum:
+        name: git
+        state: present
+
+    - name: Clone or pull the latest repository
+      git:
+        repo: 'https://github.com/Git-Prajwal-GH/website.git'
+        dest: /var/www/html/website-files
+        version: main  # or use 'master' if that's your branch
+        force: yes
+
+    - name: Ensure nginx is running
+      systemd:
+        name: nginx
+        state: started
+        enabled: yes
