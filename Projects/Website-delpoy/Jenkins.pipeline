@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+    stages {
+        stage('Pull Git Changes') {
+            steps {
+                script {
+                    // Pull the latest changes from the repository
+                    git branch: 'main', url: 'https://github.com/Git-Prajwal-GH/website.git'
+                }
+            }
+        }
+        stage('Deploy Website via Ansible') {
+            steps {
+                script {
+                    // Execute the Ansible playbook to deploy the code to the web servers
+                    sh 'ansible-playbook -i /etc/ansible/hosts /path/to/your/deploy-playbook.yml'
+                }
+            }
+        }
+    }
+}
